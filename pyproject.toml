@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "microbiota-simulation"
+version = "0.1.0"
+description = "A Python package for simulating synthetic datasets based on presence/absence matrices derived from a correlation matrix. The simulator allows for generating data, performing clustering, estimating residuals, and computing scoring metrics to compare the synthetic data with the original dataset."
+authors = ["David Martin, Pierre Houedry, Anne Cuzol, Frédéric Derbré and Valérie Monbet"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.14.1"
+pandas = "^2.2.3"
+numpy = "^2.1.1"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
