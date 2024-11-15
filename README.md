@@ -3,13 +3,12 @@
 BiomeSampler is a Python package that provides a comprehensive set of functions and classes to perform synthetic data generation, clustering, residual estimation, and simulation experiments on datasets. The workflow utilizes concepts such as hierarchical clustering, the Bray-Curtis distance, and presence-absence sampling, and it generates synthetic samples based on given data. It also calculates residuals and evaluates the performance of the synthetic samples against the original dataset using various metrics. BiomeSampler is released under the MIT License.
 
 ## Installation
-
-You can install BiomeSampler:
+You can install BiomeSampler using
 
 ```git clone https://github.com/PierreHouedry/BiomeSampler.git
 cd BiomeSampler
-pip install -r requirements.txt```
-
+pip install -r requirements.txt`
+``` 
 ## Requirements
 
 The script requires the following libraries:
