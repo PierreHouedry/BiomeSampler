@@ -1,6 +1,6 @@
 ## Overview
 
-BiomeSampler is a Python package that provides a comprehensive set of functions and classes to perform synthetic data generation, clustering, residual estimation, and simulation experiments on datasets. The workflow utilizes concepts such as hierarchical clustering, the Bray-Curtis distance, and presence-absence sampling, and it generates synthetic samples based on given data. It also calculates residuals and evaluates the performance of the synthetic samples against the original dataset using various metrics. BiomeSampler is released under the MIT License.
+BiomeSampler is a Python package that provides a comprehensive set of functions and classes to perform synthetic data generation, clustering, residual estimation, and simulation experiments on datasets. The workflow utilizes concepts such as hierarchical clustering, the Bray-Curtis distance, and presence-absence sampling, and it generates synthetic samples based on given data. It also calculates residuals and evaluates the performance of the synthetic samples against the original dataset using various metrics. BiomeSampler is released under the MIT License. The datas for IBD are available in this repository.
 
 ## Installation
 You can install BiomeSampler using
@@ -56,8 +56,7 @@ n_experiments = 10    # Number of simulation experiments to run
 display = True        # Display progress and metrics
 experiments, metrics_list, metrics_mean = simulator.simulation(n_samples, n_experiments, display)
 ```
-
-#### Step 3: Access the Results
+#### Step 3: Access the results
 
     experiments: List of DataFrames containing synthetic samples for each experiment.
     metrics_list: List of dictionaries with metrics for each experiment.
@@ -85,6 +84,4 @@ clr_transform = False  # Set to True to apply CLR transformation
 residuals = estimate_residuals(data_path, n_clusters, result_path, clr_transform)
 ```
 
-### Data
-The data for IBD are available in this repository.
 
