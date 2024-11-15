@@ -5,7 +5,7 @@ BiomeSampler is a Python package that provides a comprehensive set of functions 
 ## Installation
 You can install BiomeSampler using
 
-```
+```python
 git clone https://github.com/PierreHouedry/BiomeSampler.git
 cd BiomeSampler
 pip install -r requirements.txt`
