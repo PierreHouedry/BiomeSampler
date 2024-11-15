@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "microbiota"
+name = "BiomeSampler"
 version = "0.1.0"
 description = "A Python package for simulating synthetic datasets based on presence/absence matrices derived from a correlation matrix. The simulator allows for generating data, performing clustering, estimating residuals, and computing scoring metrics to compare the synthetic data with the original dataset."
 authors = ["David Martin, Pierre Houedry, Anne Cuzol, Frédéric Derbré and Valérie Monbet"]
