@@ -35,6 +35,7 @@ from BiomeSampler import Simulator, estimate_n_clusters, estimate_residuals
 ```
 
 ### Simulating Synthetic Data
+
 #### Step 1: Initialize the Simulator
 
 Load your original data from a CSV file where rows represent samples and columns represent features.
